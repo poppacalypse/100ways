@@ -1,0 +1,20 @@
+---
+layout: default
+title: Ablogcalypse
+description: Carl Poppa's programming journey to becoming a Full Stack Developer.
+---
+
+<div class="page blog-index">
+  <div class="col-two blog-cols">
+    <div class="col col-aside blog-recent">
+      {% include recent-posts.html %}
+    </div>
+    <div class="col col-content blog-previews">
+
+      {% for post in site.posts limit:7 %}
+        {% include post-excerpt.html %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
