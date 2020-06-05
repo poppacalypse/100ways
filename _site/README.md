@@ -1,1 +1,1 @@
-This is a sample website made as part of [*Learn Enough™ CSS & Layout to be Dangerous*](https://www.learnenough.com/css-and-layout).
+100ways.to is an experimental blog by [Carl Poppa](https://twitter.com/poppacalypse)
