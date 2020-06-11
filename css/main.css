@@ -83,8 +83,8 @@ p {
   width: 11vh;
 }
 .header-logo img {
-  height: 80%;
-  width: 4.3vh;
+  height: auto;
+  width: 11vh;
 }
 .header-logo:hover,
 .header-logo:active {
@@ -209,7 +209,7 @@ p {
   text-align: center;
 }
 .footer-logo img {
-  width: 50px;
+  width: 11vh;
 }
 .footer h3 {
   color: #fff;
