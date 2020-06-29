@@ -1,0 +1,25 @@
+---
+layout: gallery
+---
+
+<h1>{{ page.name }}</h1>
+
+{{ content }}
+
+<!-- <h2>Posts related to this method</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'method', page.short_name %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->
+
+<div class="col col-cards">
+  {% assign filtered_posts = site.posts | where: 'method', page.short_name %}
+  {% for post in filtered_posts %}
+    <div class="card">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% include post-excerpt.html %}
+    </div>
+  {% endfor %}
+</div>

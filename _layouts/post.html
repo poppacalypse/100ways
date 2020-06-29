@@ -11,11 +11,16 @@ layout: default
       <h2>{{ page.title }}</h2>
       <h3>{{ page.subtitle }}</h3>
       <div class="post-byline">
-        <span>Updated {{ page.date | date_to_long_string }} \\ by {{ page.author }}</span>
+        <span>Updated {{ page.date | date_to_long_string }} \\
+          {% assign method = site.methods | where: 'short_name', page.method | first %}
+            {% if method %}
+              <a href="{{ method.url }}">{{ method.name }}</a>
+            {% endif %}</span>
       </div>
+
     </header>
     <aside class="post-aside">
-      {% include recent-posts.html %}
+      <!-- {% include recent-posts.html %} -->
     </aside>
     <div class="post-content">
       {{ content }}

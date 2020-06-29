@@ -22,10 +22,10 @@ a {
 
 /* HEADER STYLES */
 .header {
-  background-color: #000;
+  background-color: #05151e;
   color: #fff;
-  /* width: 100%;
-  z-index: 20; */
+  /* width: 100%; */
+  z-index: 20;
 }
 .header-logo {
   box-sizing: border-box;
@@ -62,6 +62,19 @@ a {
 .nav-links a:hover,
 .nav-links a:active {
   color: #00ff00;
+}
+
+/* STICKY BANNER */
+.banner a {
+  /* background-color: #2fa; */
+  background-color: #00ff00;
+  padding: 2vh;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  width: 100vw;
+  z-index: 18;
+  color: #05151e;
 }
 
 /* HERO STYLES */
@@ -120,7 +133,7 @@ a {
 .home-about {
   align-items: center;
   background-color: #000;
-  color: #fff;
+  color: #00ffff;
   display: flex;
   padding: 7vh;
 }
@@ -149,4 +162,55 @@ a {
 .home-cards h2 {
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+/* COLUMN STYLES */
+.gallery {
+  display: flex;
+}
+.col {
+  box-sizing: border-box;
+  padding: 1vw;
+}
+.col-nav {
+  box-sizing: border-box;
+  flex: 0 1 20vw;
+  height: 89vh;
+  left: 0;
+  position: fixed;
+  /* width: 20vw; */
+}
+.col-content {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  margin-left: 20vw;
+}
+.col-cards {
+  display: flex;
+  justify-content: center;
+  /* Put a card in the next row when previous cards take all width */
+  flex-wrap: wrap;
+  margin-left: -1vw;
+  margin-right: -1vw;
+  flex: 1;
+
+  /* width: 60vw; */
+}
+.card {
+  box-sizing: border-box;
+  flex-basis: 45%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border: 1px solid blue;
+  margin: 1em;
+}
+.col-links {
+  /* max-width: 20vw; */
+  align-self: flex-start;
+  box-sizing: border-box;
+  flex: 0 1 20vw;
+  padding: 2em;
+
 }
