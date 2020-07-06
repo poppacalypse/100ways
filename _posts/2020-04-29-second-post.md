@@ -3,7 +3,7 @@ layout: post
 permalink: /second-post/
 title: Second post numero duo
 subtitle: subtitle in finer font here
-postHero: /images/small/slide1.jpg
+hero: /images/small/slide1.jpg
 method: fast
 authorTwitter: https://twitter.com/poppacalypse
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150

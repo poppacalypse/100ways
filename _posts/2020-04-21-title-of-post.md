@@ -1,11 +1,17 @@
 ---
 layout: post
 title: This is the title of the first post
-postHero: /images/shark.jpg
-method: slow
-authorTwitter: https://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
-postFooter: Additional information, and maybe a <a href="#">link or two</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+hero: /images/shark.jpg
+method:
+- slow
+- fast
+author: Carl Poppa
+authorTwitter: https://twitter.com/poppacalypse
+icon:
+- <i class="fas fa-user-clock"></i>
+- <i class="fas fa-bolt"></i>
+postFooter: Additional information, and maybe a <a href="#">link or two</a>. Lorem ipsum dolor sit amet
+
 ---
 
 Begin first post. Call me *Ishmael*. Some years ago–*never mind how long
@@ -14,7 +20,7 @@ particular to [interest](http://google.com) me on shore, I thought I would sail 
 and see the watery part of the world. It is a way I have of driving off
 the spleen and regulating the circulation.
 
-<img class="pull-left" src="https://placekitten.com/g/400/200" alt="kitten">
+<img src="https://placekitten.com/g/600/600" alt="kitten">
 
 Whenever I find myself growing grim about the mouth; whenever it is a damp,
 drizzly November in my soul; whenever I find myself involuntarily pausing

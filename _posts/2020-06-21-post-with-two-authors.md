@@ -2,7 +2,7 @@
 layout: post
 title: Post with two authors
 subtitle: should show 2 author names (adult & saving)
-postHero: /images/logo.png
+hero: /images/logo.png
 method:
 - on-adult-content
 - by-saving

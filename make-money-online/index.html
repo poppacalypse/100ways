@@ -4,14 +4,7 @@ layout: default
 
 <div class="gallery">
 
-  <div class="col col-nav">
-    <h1>fixed left column</h1>
-    <ul>
-      {% for method in site.methods %}
-        <li><a href="{{ method.url }}">{{ method.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+  {% include filters.html %}
 
   <div class="col-content">
 

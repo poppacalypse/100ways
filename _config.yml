@@ -1,7 +1,7 @@
 collections:
   methods:
     output: true
-    permalink: /make-money/:path/
+    permalink: /make-money-online/:path/
     order:
       - fast.md
       - slow.md
