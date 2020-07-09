@@ -256,15 +256,18 @@ a {
   background-size: cover;
   height: 30vh;
   display: flex;
+  margin-top: -13.9vh;
   justify-content: center;
   align-items: center;
+  box-shadow: inset 0 0 0 100vmax rgba(127, 0, 255, 0.25);
+  border-radius: 0 0 0.6em 0.6em;
 }
 .page-title {
   color: #fff;
   display: block;
   text-align: center;
   padding: 0.5em;
-  background-color: rgba(0, 0, 0, 0.35);
+  /* background-color: rgba(0, 0, 0, 0.35); */
 }
 .page-title h2 {
   font-size: 3vw;
@@ -279,8 +282,9 @@ a {
   width: 90%;
   background-color: #fafafa;
   border: 1px solid #ebebeb;
+  border-radius: 0.6em;
   box-shadow: inset 0 0 2px 4px #fff;
-  margin: 0 0 4.8em;
+  margin: 4.8em 0 4.8em 0;
   padding: 1.2em 2.4em;
 }
 .post-header {
@@ -291,23 +295,57 @@ a {
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1em;
-  text-align: left;
+  /* text-align: left; */
 }
-.post-byline a {
+.post-author a {
+  background: rgba(0, 255, 0, 0.1);
+  padding: 1em;
+  /* border-radius: 0.6em; */
+  border-radius: 57% 100% 41% 94% / 57% 100% 41% 94%;
   text-decoration: none;
-  background-color: rgba(0, 255, 0, 0.1);
-  padding: 0 0.5em;
 }
-.post-byline a:hover,
-.post-byline a:active {
-  text-decoration: underline;
-  opacity: 0.7;
+.post-author a:hover,
+.post-author a:active {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+.post-read-time {
+  background: rgba(255, 0, 255, 0.1);
+  padding: 0.6em;
+}
+.post-update {
+  background: rgba(0, 255, 255, 0.1);
+  padding: 0.4em;
+}
+.post-filter {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2em;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.post-filter:hover,
+.post-filter:active {
+  background: rgba(0, 0, 0, 0.2);
 }
 .post-aside {
-  background-color: rgba(0, 70, 128, 0.1);
+  /* background-color: rgba(0, 70, 128, 0.1); */
+  background-color: #fff;
   float: right;
-  margin: 0 0 2em 2em;
+  margin: 2em -2.5em 2em 2em;
   padding: 2em;
+  border-radius: 0.6em;
+  /* border-radius: 0.6em 0 0 0.6em; */
+  /* border-radius: 11% 0% 0% 68% / 73% 0% 0% 17%; */
+  width: 15vw;
+  box-shadow: 0 0 10px 0 #00ffff;
 }
 .post-content {
   color: #494E50;
@@ -326,13 +364,6 @@ a {
 .post-content a:visited,
 .post-footer a:visited {
   color: #708090;
-}
-.post-update {
-  font-size: 0.9rem;
-  color: rgba(0, 0, 0, 0.5);
-  margin-top: 1em;
-  text-align: left;
-  background-color: red;
 }
 .post-footer {
   border-top: 1px dashed rgba(0, 0, 0, 0.1);

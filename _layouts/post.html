@@ -15,9 +15,30 @@ layout: gallery
   <article class="page">
     <header class="post-header">
       <div class="post-byline">
-          <a href="{{ base.url }}/make-money-online/{{ page.method[0] }}/" alt="{{ page.method[0] }}" title="{{ page.method[0] }}">{{ page.icon[0] }}</a> 
-          &nbsp;
-          <a href="{{ base.url }}/make-money-online/{{ page.method[1] }}/">{{ page.icon[1] }}</a> by <a href="{{ page.authorTwitter }}" target="_blank">{{ page.author }}</a>
+        <span class="post-filter">
+          <a href="{{ base.url }}/make-money-online/{{ page.method[0] }}/" alt="{{ page.method[0] }}" title="{{ page.method[0] | capitalize }}">{{ page.icon[0] }}</a></span>
+
+          <span class="post-filter"><a href="{{ base.url }}/make-money-online/{{ page.method[1] }}/" alt="{{ page.method[1] }}" title="{{ page.method[1] | capitalize }}">{{ page.icon[1] }}</a></span>
+
+          <span class="post-filter"><a href="{{ base.url }}/make-money-online/{{ page.method[2] }}/" alt="{{ page.method[2] }}" title="{{ page.method[2] | capitalize }}">{{ page.icon[2] }}</a></span>
+
+          by <span class="post-author"><a href="{{ page.authorTwitter }}" target="_blank">{{ page.author }}</a>
+            &nbsp;
+            <span class="post-read-time">
+            {% assign words = content | number_of_words %}
+            {% if words < 360 %}
+              1min read
+            {% else %}
+              {{ words | divided_by:180 }}mins read
+            {% endif %}
+            </span>
+
+            &nbsp;
+            <span class="post-update">
+            updated {{ page.date | date_to_long_string }}
+            </span>
+
+          </span>
       </div>
     </header>
 
@@ -27,11 +48,6 @@ layout: gallery
 
     <div class="post-content">
       {{ content }}
-
-      <div class="post-byline">
-          <i class="fas fa-wave-square"></i> updated {{ page.date | date_to_long_string }}
-      </div>
-      <div class="page post-update"></div>
     </div>
 
     <footer class="post-footer">

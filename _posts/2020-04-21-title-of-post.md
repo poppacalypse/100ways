@@ -3,13 +3,15 @@ layout: post
 title: This is the title of the first post
 hero: /images/shark.jpg
 method:
-- slow
 - fast
+- while-idling
+- with-small-earning-potential
 author: Carl Poppa
 authorTwitter: https://twitter.com/poppacalypse
 icon:
-- <i class="fas fa-user-clock"></i>
 - <i class="fas fa-bolt"></i>
+- <i class="fas fa-couch"></i>
+- <i class="fas fa-dollar-sign"></i>
 postFooter: Additional information, and maybe a <a href="#">link or two</a>. Lorem ipsum dolor sit amet
 
 ---
