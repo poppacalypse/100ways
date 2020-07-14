@@ -4,46 +4,48 @@ layout: gallery
 
 <div class="post">
 
-  <div class="class page-hero-overlay">
-    <div class="page-hero" style="background-image:url({{ page.hero }})">
-      <div class="page-title">
-        <h2>{{ page.title }}</h2>
-        <h3>{{ page.subtitle }}</h3></div>
+  <div class="page-hero" style="background-image:url({{ page.hero }})">
+    <div class="page-title">
+      <h2>{{ page.title }}</h2>
+      <h3>{{ page.subtitle }}</h3>
+    </div>
+
+    <div class="page-hero-bottom">
+      <div class="post-read-time">
+      {% assign words = content | number_of_words %}
+      {% if words < 360 %}
+        1 min read
+      {% else %}
+        {{ words | divided_by:180 }} mins read
+      {% endif %}
+      </div>
+      <div class="post-filters">
+
+        <a href="{{ base.url }}/make-money-online/{{ page.method[0] }}/" alt="{{ page.method[0] }}" title="{{ page.methodName[0] }}"><span class="post-filter-icon">{{ page.icon[0] }}</span></a>
+
+        <a href="{{ base.url }}/make-money-online/{{ page.method[1] }}/" alt="{{ page.method[1] }}" title="{{ page.methodName[1] }}"><span class="post-filter-icon">{{ page.icon[1] }}</span></a>
+
+        <a href="{{ base.url }}/make-money-online/{{ page.method[2] }}/" alt="{{ page.method[2] }}" title="{{ page.methodName[2] }}"><span class="post-filter-icon">{{ page.icon[2] }}</span></a>
+      </div>
     </div>
   </div>
 
   <article class="page">
     <header class="post-header">
       <div class="post-byline">
-        <span class="post-filter">
-          <a href="{{ base.url }}/make-money-online/{{ page.method[0] }}/" alt="{{ page.method[0] }}" title="{{ page.method[0] | capitalize }}">{{ page.icon[0] }}</a></span>
-
-          <span class="post-filter"><a href="{{ base.url }}/make-money-online/{{ page.method[1] }}/" alt="{{ page.method[1] }}" title="{{ page.method[1] | capitalize }}">{{ page.icon[1] }}</a></span>
-
-          <span class="post-filter"><a href="{{ base.url }}/make-money-online/{{ page.method[2] }}/" alt="{{ page.method[2] }}" title="{{ page.method[2] | capitalize }}">{{ page.icon[2] }}</a></span>
-
-          by <span class="post-author"><a href="{{ page.authorTwitter }}" target="_blank">{{ page.author }}</a>
-            &nbsp;
-            <span class="post-read-time">
-            {% assign words = content | number_of_words %}
-            {% if words < 360 %}
-              1min read
-            {% else %}
-              {{ words | divided_by:180 }}mins read
-            {% endif %}
-            </span>
-
-            &nbsp;
-            <span class="post-update">
-            updated {{ page.date | date_to_long_string }}
-            </span>
-
+          by <span class="post-author"><a href="{{ page.authorTwitter }}" target="_blank"> {{ page.author }} <img src="{{ page.authorPic }}"></a>
+          </span>
+          <br>
+          <span class="post-update">
+          updated {{ page.date | date_to_long_string }}
           </span>
       </div>
     </header>
 
-    <aside class="post-aside">
-      {% include recent-posts.html %}
+    <aside class="post-aside-wrap">
+      <aside class="post-aside">
+        {% include aside.html %}
+      </aside>
     </aside>
 
     <div class="post-content">

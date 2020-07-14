@@ -1,16 +1,11 @@
 ---
 layout: gallery
 ---
-
-<h1>{{ page.name }}</h1>
-
-
 <div class="col col-cards">
   {% assign filtered_posts = site.posts | where: 'method', page.short_name %}
   {% for post in filtered_posts %}
     <div class="card">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    {% include post-excerpt.html %}
+    <a href="{{ post.url }}">{% include post-excerpt.html %}</a>
     </div>
   {% endfor %}
 </div>
