@@ -1,6 +1,7 @@
 ---
 layout: method
 short_name: fast
+label: fast
 name: Fast
 icon: <i class="fas fa-bolt"></i>
 ---

@@ -2,18 +2,13 @@
 layout: post
 title: This is the title of the first post
 hero: /images/shark.jpg
+speed: slow
+way: idling
+earning: small
 method:
-- fast
-- while-idling
-- with-small-earning-potential
-methodName:
-- Fast
-- Idling
-- Small Earning Potential
-icon:
-- <i class="fas fa-bolt"></i>
-- <i class="fas fa-couch"></i>
-- <i class="fas fa-dollar-sign"></i>
+- slow
+- idling
+- small
 author: Carl Poppa
 authorTwitter: https://twitter.com/poppacalypse
 authorPic: /images/poppacalypse.jpg

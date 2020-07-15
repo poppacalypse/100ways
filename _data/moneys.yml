@@ -1,0 +1,61 @@
+fast:
+    label: fast
+    name: Fast
+    path: /make-money-online/fast/
+    icon: <i class="fas fa-bolt"></i>
+
+slow:
+    label: slow
+    name: Slow
+    path: /make-money-online/slow/
+    icon: <i class="fas fa-hourglass-half"></i>
+
+idling:
+  name: Idling
+  path: /make-money-online/while-idling/
+  icon: <i class="fas fa-couch"></i>
+
+saving:
+  name: Saving
+  path: /make-money-online/by-saving/
+  icon: <i class="fas fa-piggy-bank"></i>
+
+consuming:
+  name: Consuming Content
+  path: /make-money-online/consuming-content/
+  icon: <i class="fas fa-tv"></i>
+
+creating:
+  name: Creating Content
+  path: /make-money-online/creating-content/
+  icon: <i class="fas fa-pen"></i>
+
+crypto:
+  name: Mining Cryptocurrency
+  path: /make-money-online/mining-cryptocurrency/
+  icon: <i class="fab fa-bitcoin"></i>
+
+investing:
+  name: Investing
+  path: /make-money-online/making-investments/
+  icon: <i class="fas fa-chart-line"></i>
+
+small:
+  name: Small Earning Potential
+  path: /make-money-online/with-small-earning-potential/
+  icon: <i class="fas fa-dollar-sign"></i>
+
+medium:
+  name: Medium Earning Potential
+  path: /make-money-online/with-medium-earning-potential/
+  icon: <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i>
+
+large:
+  name: Large Earning Potential
+  path: /make-money-online/with-large-earning-potential/
+  icon: <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i>
+
+adult:
+  name: Adult R18+
+  path: /make-money-online/on-adult-content/
+  icon: <i class="fas fa-ban"></i>

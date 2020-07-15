@@ -19,16 +19,13 @@ layout: gallery
         {{ words | divided_by:180 }} mins read
       {% endif %}
       </div>
-
       <div class="post-filters">
-        {% assign speed = site.data.moneys[page.speed] %}
-        <a href="{{ base.url }}{{ speed.path }}" alt="{{ speed.name }}" title="{{ speed.name }}"><span class="post-filter-icon">{{ speed.icon }}</span></a>
 
-        {% assign way = site.data.moneys[page.way] %}
-        <a href="{{ base.url }}{{ way.path }}" alt="{{ way.name }}" title="{{ way.name }}"><span class="post-filter-icon">{{ way.icon }}</span></a>
+        <a href="{{ base.url }}/make-money-online/{{ page.method[0] }}/" alt="{{ page.method[0] }}" title="{{ page.methodName[0] }}"><span class="post-filter-icon">{{ page.icon[0] }}</span></a>
 
-        {% assign earning = site.data.moneys[page.earning] %}
-        <a href="{{ base.url }}{{ earning.path }}" alt="{{ earning.name }}" title="{{ earning.name }}"><span class="post-filter-icon">{{ earning.icon }}</span></a>
+        <a href="{{ base.url }}/make-money-online/{{ page.method[1] }}/" alt="{{ page.method[1] }}" title="{{ page.methodName[1] }}"><span class="post-filter-icon">{{ page.icon[1] }}</span></a>
+
+        <a href="{{ base.url }}/make-money-online/{{ page.method[2] }}/" alt="{{ page.method[2] }}" title="{{ page.methodName[2] }}"><span class="post-filter-icon">{{ page.icon[2] }}</span></a>
       </div>
     </div>
   </div>
@@ -52,6 +49,21 @@ layout: gallery
     </aside>
 
     <div class="post-content">
+
+      {% assign jk = site.data.moneys[page.jk] %}
+
+      {{ jk.name }}
+      {{ jk.icon }}
+
+      <br>
+
+      {% assign jk2 = site.data.moneys[page.jk2] %}
+
+      {{ jk2.name }}
+      {{ jk2.icon }}
+
+
+
       {{ content }}
     </div>
 

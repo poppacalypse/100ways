@@ -14,9 +14,14 @@
     {% endif %}
     </div>
     <div class="card-filters">
-    <span class="card-filter-icon">{{ post.icon[0] }}</span>
-    <span class="card-filter-icon">{{ post.icon[1] }}</span>
-    <span class="card-filter-icon">{{ post.icon[2] }}</span>
+      {% assign speed = site.data.moneys[post.speed] %}
+      <span class="card-filter-icon">{{ speed.icon }}</span>
+
+      {% assign way = site.data.moneys[post.way] %}
+      <span class="card-filter-icon">{{ way.icon }}</span>
+
+      {% assign earning = site.data.moneys[post.earning] %}
+      <span class="card-filter-icon">{{ earning.icon }}</span>
 
 
     </div>

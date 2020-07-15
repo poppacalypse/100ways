@@ -2,7 +2,7 @@
 layout: gallery
 ---
 <div class="col col-cards">
-  {% assign filtered_posts = site.posts | where: 'method', page.short_name %}
+  {% assign filtered_posts = site.posts | where: 'method', page.label %}
   {% for post in filtered_posts %}
     <div class="card">
     <a href="{{ post.url }}">{% include post-excerpt.html %}</a>

@@ -4,18 +4,13 @@ permalink: /second-post/
 title: Second post numero duo
 subtitle: subtitle in finer font here
 hero: /images/large/slide1.jpg
+speed: slow
+way: crypto
+earning: large
 method:
 - slow
-- mining-cryptocurrency
-- with-large-earning-potential
-methodName:
-- Slow
-- Mining Cryptocurrency
-- Large Earning Potential
-icon:
-- <i class="fas fa-user-clock"></i>
-- <i class="fab fa-bitcoin"></i>
-- <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i>
+- crypto
+- large
 authorTwitter: https://twitter.com/poppacalypse
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
