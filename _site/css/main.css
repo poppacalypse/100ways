@@ -184,6 +184,15 @@ a {
   position: fixed;
   width: 20vw;
 }
+.col-sidebar {
+  box-sizing: border-box;
+  margin: 5vh auto 1vh;
+  /* flex: 0 1 20vw; */
+  /* height: 89vh; */
+  /* right: 0; */
+  /* position: fixed; */
+  /* width: 20vw; */
+}
 .col-content {
   align-items: flex-start;
   box-sizing: border-box;
@@ -458,5 +467,32 @@ a {
 .post-footer a:active {
   color: #004680;
   background: rgba(127, 0, 255, 0.25);
+  text-decoration: none;
+}
+
+/* SIDEBAR STYLES */
+.sidebar-content {
+  font-size: 0.8rem;
+  padding: 0 0.5em 2em 2em;
+  line-height: 1.7;
+  color: #494e50;
+}
+.sidebar-content strong {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sidebar-content i {
+  color: #7f00ff;
+}
+.sidebar-content li {
+  padding-left: 1em;
+  list-style: none;
+}
+.sidebar-content a {
+  text-decoration: none;
+}
+.sidebar-content a:hover,
+.sidebar-content a:active {
+  color: #004680;
+  background: rgba(127,0,255,0.25);
   text-decoration: none;
 }
