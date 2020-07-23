@@ -9,7 +9,7 @@ layout: default
   <div class="col-content">
 
     <div class="col col-cards">
-      {% for post in site.posts %}
+      {% for post in site.tags.main %}
         <div class="card">
           <a href="{{ post.url }}">
             {% include post-excerpt.html %}

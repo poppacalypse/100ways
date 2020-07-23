@@ -1,34 +1,42 @@
 <div class="col col-sidebar">
+
   <div class="sidebar-content">
-    <p><strong>Join 175 HA¢K€R$ getting one actionable blueprint every week.</strong>
-      <br>&nbsp;
-      <ul>
-        <li><i class="fas fa-check"></i> Real methods</li>
-        <li><i class="fas fa-check"></i> 3 minute read</li>
-        <li><i class="fas fa-check"></i> Practical hacks</li>
-        <li><i class="fas fa-check"></i> &lt; 0.6% unsubscribe</li>
-        <li><i class="fas fa-check"></i> Free, forever</li>
+      <ul><strong>Newly updated</strong> &nbsp;&nbsp;
+        {% for post in site.posts reversed limit:10 %}
+        <li><a href="{{ post.url }}">{{ post.title }} &gt;</a></li>
+        {% endfor %}
       </ul>
-      <br>[ <i class="far fa-envelope"></i> your@bestemail.com ]
-      <br><button>Fatten my wallet</button>
-    </p>
   </div>
 
   <div class="sidebar-content">
-    <ul><strong>Follow 100Ways</strong>
-    <li><a href="https://twitter.com/100ways_to" alt="100Ways_to Twitter" title="100Ways_to Twitter"><i class="fab fa-twitter"></i> @100ways_to</a></li>
-    <li><a href="https://www.instagram.com/100ways_to/" alt="100Ways_to Instagram" title="100Ways_to Instagram"><i class="fab fa-instagram"></i> @100ways_to</a></li>
+    <ul><strong>Follow <i>1</i><i class="fas fa-infinity"></i> Ways</strong>
+      <li><a href="https://twitter.com/100ways_to">Twitter</a></li>
+      <li>Instagram</li>
+      <li>Archive</li>
+      <li>Projects</li>
+      <li>Colophon</li>
+      <li>Sponsorship</li>
     </ul>
   </div>
 
   <div class="sidebar-content">
-    <p><strong>Top 5:</strong>
-      {% include recent-posts.html %}
+    <p><strong>Join {% include newsletter-subs.html %} HA¢K€R$ getting one actionable blueprint every week</strong>.
+      <br>&nbsp;
+      <ul>
+        <li><i class="fas fa-check"></i> Tested methods</li>
+        <li><i class="fas fa-check"></i> Practical hacks</li>
+        <li><i class="fas fa-check"></i> Quick reads</li>
+        <li><i class="fas fa-check"></i> Free, forever</li>
+      </ul>
+
+      <br><input type="email" placeholder="✉️  email@example.com" id="email" />
+      <br><input type="submit" value="Fatten my wallet" id="submit" />
+
     </p>
   </div>
 
   <div class="sidebar-content">
-    <a href="https://www.twitch.tv/poppacalypse"><i class="fab fa-twitch"></i></a>
+   <a href="https://www.twitch.tv/poppacalypse" target="_blank">Hustle Buddy <i class="fab fa-twitch"></i></a>
   </div>
 
 </div>

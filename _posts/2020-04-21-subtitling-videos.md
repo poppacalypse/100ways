@@ -1,14 +1,18 @@
 ---
 layout: post
-title: This is the title of the first post
+title: Writing subtitles for videos
+permalink: /by-subtitling-videos/
+tags: main
 hero: /images/shark.jpg
-speed: slow
-way: idling
-earning: small
+
 method:
 - slow
 - idling
 - small
+speed: slow
+way: idling
+earning: small
+
 author: Carl Poppa
 authorTwitter: https://twitter.com/poppacalypse
 authorPic: /images/poppacalypse.jpg

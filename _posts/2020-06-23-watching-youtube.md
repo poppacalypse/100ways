@@ -1,15 +1,16 @@
 ---
 layout: post
-permalink: /make-money-online/watching-youtube
-title: Get paid to watch YouTube
+title: Watching YouTube
+permalink: /make-money-online/watching-youtube/
+tags: main
 hero: /images/phathax0r.jpg
-speed: fast
-way: consuming
-earning: small
 method:
 - fast
 - consuming
 - small
+speed: fast
+way: consuming
+earning: small
 authorTwitter: https://twitter.com/poppacalypse
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
 postFooter: Testing footer

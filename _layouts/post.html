@@ -38,7 +38,6 @@ layout: classic
       <div class="post-byline">
           by <span class="post-author"><a href="{{ page.authorTwitter }}" target="_blank"> {{ page.author }} <img src="{{ page.authorPic }}"></a>
           </span>
-          <br>
           <span class="post-update">
           updated {{ page.date | date_to_long_string }}
           </span>
@@ -46,9 +45,7 @@ layout: classic
     </header>
 
     <aside class="post-aside-wrap">
-      <aside class="post-aside">
-        {% include aside.html %}
-      </aside>
+      {% include aside.html %}
     </aside>
 
     <div class="post-content">
