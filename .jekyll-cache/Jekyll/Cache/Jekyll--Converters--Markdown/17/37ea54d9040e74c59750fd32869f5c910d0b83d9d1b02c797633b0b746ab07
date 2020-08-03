@@ -1,0 +1,105 @@
+I"Ó
+<div class="col-three">
+  <div class="col col-left">
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <div class="sidebar-filter">
+          Fast
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-user-clock"></i>
+        </div>
+        <div class="sidebar-filter">
+          Slow
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-couch"></i>
+        </div>
+        <div class="sidebar-filter">
+          Idling
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-piggy-bank"></i>
+        </div>
+        <div class="sidebar-filter">
+          Saving
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-tv"></i>
+        </div>
+        <div class="sidebar-filter">
+          Consuming<br />Content
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-pen"></i>
+        </div>
+        <div class="sidebar-filter">
+          Creating<br />Content
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fab fa-bitcoin"></i>
+        </div>
+        <div class="sidebar-filter">
+          Cryptocurrency
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="sidebar-filter">
+          Investing
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-dollar-sign"></i>
+        </div>
+        <div class="sidebar-filter">
+          Small Earning<br />Potential
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-dollar-sign"></i>
+        </div>
+        <div class="sidebar-filter">
+          Medium Earning Potential
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-dollar-sign"></i>
+        </div>
+        <div class="sidebar-filter">
+          Large Earning<br />Potential
+        </div>
+      </div>
+      <div class="sidebar-box">
+        <div class="sidebar-icon">
+          <i class="fas fa-ban"></i>
+        </div>
+        <div class="sidebar-filter">
+          Adult R18+
+        </div>
+      </div>
+  </div>
+</div>
+:ET

@@ -1,0 +1,28 @@
+I"<p>Front matter for this page includes canonical_url.</p>
+
+<p>Testing display. <em>Q: What do asterisks do?</em> A: em</p>
+
+<p>Next paragraph. <em>Q: What do underscores do</em> A: em</p>
+
+<p>Third paragraph. <strong>Q: What do double asterisks do</strong> A: strong</p>
+
+<blockquote>
+  <p>Fourth paragraph. What does a ‘greater than’ symbol do. A: blockquote.</p>
+</blockquote>
+
+<h1 id="heading-level-1-h1">Heading level 1 (h1)</h1>
+
+<h2 id="heading-level-2-h2">Heading level 2 (h2)</h2>
+
+<h3 id="heading-level-3-h3">Heading level 3 (h3)</h3>
+
+<p><img src="https://placekitten.com/g/500/200" alt="kitten" /></p>
+
+<p>Do <code class="language-plaintext highlighter-rouge">backticks</code> word for code? Yes.</p>
+
+<p>Here’s a horizontal rule:</p>
+
+<hr />
+
+<p>End of horizontal rule.</p>
+:ET

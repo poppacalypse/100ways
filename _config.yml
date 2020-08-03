@@ -22,3 +22,6 @@ defaults:
       type: "methods"
     values:
       layout: "method"
+
+plugins:
+  - jekyll-seo-tag
