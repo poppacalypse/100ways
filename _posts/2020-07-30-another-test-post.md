@@ -28,11 +28,11 @@ Third paragraph. **Q: What do double asterisks do** A: strong
 
 > Fourth paragraph. What does a 'greater than' symbol do. A: blockquote.
 
-# Heading level 1 (h1)
-
-## Heading level 2 (h2)
-
 ### Heading level 3 (h3)
+
+#### Heading level 4 (h4)
+
+##### Heading level 5 (h5)
 
 <img src="https://placekitten.com/g/500/200" alt="kitten">
 
@@ -43,3 +43,14 @@ Here's a horizontal rule:
 ---
 
 End of horizontal rule.
+
+Visually hide content meant only for screen readers.
+
+`.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }`

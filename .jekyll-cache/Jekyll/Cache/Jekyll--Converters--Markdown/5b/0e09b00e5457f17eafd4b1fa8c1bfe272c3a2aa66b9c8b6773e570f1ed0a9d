@@ -1,0 +1,11 @@
+I"¢<style>
+  .stars {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+  }
+</style>
+
+:ET

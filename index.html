@@ -13,55 +13,55 @@ layout: lander
   </div>
 </div>
 
-<div class="home-about">
-    <h1 class="about-title">Get ideas &amp; inspiration today</h1>
-    <div class="about-copy">
+<main class="home-about">
+  <h1 class="about-title">Get ideas &amp; inspiration today</h1>
+  <div class="about-copy">
 
-      <div style="margin-left: -30vw">
-        <div class="post-byline post-header">
-          <span class="post-author">
-            <a href="/about.html">
-              Hi, I'm Carl
-              <img src="/images/poppacalypse.jpg">
-          </a>
-          </span>
+    <div style="margin-left: -30vw">
+      <div class="post-byline post-header">
+        <span class="post-author">
+          <a href="/about.html">
+            Hi, I'm Carl
+            <img src="/images/poppacalypse.jpg">
+        </a>
+        </span>
       </div>
-
-      </div style="about-copy">
-      <p>
-        Each week I share a new secret on how you can earn some pocket money online in <strong>my newsletter</strong>.
-      </p>
-
-        <ul>
-          <li>🍺 &nbsp; Free tips. Forever.</li>
-          <li>💰 &nbsp; One method every week.</li>
-          <li>⚡️ &nbsp; Easy reads. Instantly actionable.</li>
-          <li>🎯 &nbsp; No fluff.</li>
-        </ul>
-
-        <p>
-          {% include newsletter-subs.html %} side-hustlers read it for money ha¢k$ and business ideas. I'd love for you to join us.
-
-            <br>&nbsp;
-            <br>➡️ &nbsp;
-          <input type="email" placeholder="✉️ &nbsp; Learn one new way every week" style="width: 17em" id="email" />
-          <input type="submit" value="Get inspired" id="submit"/>
-        </p>
-
-        <p>
-          <br>&nbsp;
-          <br>⭐️ &nbsp; Try this week's hack at home:
-          {% for post in site.posts limit:1 %}
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            {% assign words = post.content | number_of_words %}
-            <span style="font-size: 0.65rem; color: #00b490">
-            {% if words < 360 %}
-              1 MIN READ
-            {% else %}
-              {{ words | divided_by:180 }} MINS READ
-            {% endif %}
-          {% endfor %}
-          </span>
-        </p>
     </div>
-</div>
+
+    <p>
+      Each week I share a new secret on how you can earn some pocket money online in <strong>my newsletter</strong>.
+    </p>
+
+    <ul>
+      <li>♾ &nbsp; Free tips. Forever.</li>
+      <li>💰 &nbsp; One method every week.</li>
+      <li>⚡️ &nbsp; Easy reads. Instantly actionable.</li>
+      <li>🎯 &nbsp; No fluff.</li>
+    </ul>
+
+    <p>
+      {% include newsletter-subs.html %} side-hustlers read it for money ha¢k$ and business ideas. I'd love for you to join us.
+
+        <br>&nbsp;
+        <br>➡️ &nbsp;
+      <input type="email" placeholder="✉️ &nbsp; Learn one new way every week" style="width: 17em" id="email" />
+      <input type="submit" value="Get inspired" id="submit"/>
+    </p>
+
+    <p>
+      <br>&nbsp;
+      <br>⭐️ &nbsp; Try this week's hack at home:
+      {% for post in site.posts limit:1 %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {% assign words = post.content | number_of_words %}
+        <span style="font-size: 0.65rem; color: #00b490">
+        {% if words < 360 %}
+          1 MIN READ
+        {% else %}
+          {{ words | divided_by:180 }} MINS READ
+        {% endif %}
+      {% endfor %}
+      </span>
+    </p>
+  </div>
+</main>

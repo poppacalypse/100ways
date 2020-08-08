@@ -10,11 +10,11 @@ layout: default
 
     <div class="col col-cards">
       {% for post in site.tags.main %}
-        <div class="card">
+        <article class="card">
           <a href="{{ post.url }}">
             {% include post-excerpt.html %}
           </a>
-        </div>
+        </article>
       {% endfor %}
     </div>
 
