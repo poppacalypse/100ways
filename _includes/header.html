@@ -1,15 +1,23 @@
-<div class="banner">
-  {% include banner.html %}
-</div>
-
 <header class="header">
 
-  <nav>
-    <ul class="header-nav nav-links">
-      {% include nav-links.html %}
-    </ul>
-  </nav>
+  <div class="banner">
+    {% include banner.html %}
+  </div>
 
-  <a href="/" class="header-logo"><img src="/images/logo.png" alt="100 Ways" title="Home"></a>
+  <nav>
+
+    <div class="header-logo">
+      <a href="/"><img src="/images/logo.png" alt="100 Ways" title="Home"></a>
+
+      <a href="/make-money-online/" alt="100 ways to make money online" title="100 ways to make money online">
+        <span style="color: #00b490; font-size: 0.65em; font-weight: normal">TO</span>&nbsp; Make Money Online
+      </a>
+    </div>
+
+    <div class="header-nav">
+      {% include nav-links.html %}
+    </div>
+
+  </nav>
 
 </header>
