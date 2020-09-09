@@ -598,7 +598,19 @@ nav {
   background: rgba(0, 255, 0, 0.25);
   text-decoration: none;
 }
+.sidebar-form {
+  display: flex !important;
+  flex-direction: column !important;
+}
 
+/* FOOTER STYLES */
+.footer-form {
+  margin: 1em 2em -2.5vh -3em !important;
+  padding: 0 !important;
+  background: rgba(127, 0, 255, 0.2);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 0.3em;
+}
 /* DARK MODE STYLES  */
 @media (prefers-color-scheme: dark) {
   body {
