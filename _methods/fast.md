@@ -3,6 +3,6 @@ layout: method
 short_name: fast
 label: fast
 name: Fast
-icon: <i class="fas fa-bolt"></i>
+icon: <span class="icon icon-bolt"></span>
 ---
 Fast ways to make money online. Requires little time and effort.

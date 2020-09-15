@@ -2,33 +2,33 @@ fast:
     label: fast
     name: Fast
     path: /make-money-online/fast/
-    icon: <i class="fas fa-bolt"></i>
+    icon: <span class="icon icon-bolt"></span>
 
 slow:
     label: slow
     name: Slow
     path: /make-money-online/slow/
-    icon: <i class="fas fa-hourglass-half"></i>
+    icon: <span class="icon icon-hourglass-2"></span>
 
 idling:
   name: Idling
   path: /make-money-online/while-idling/
-  icon: <i class="fas fa-couch"></i>
+  icon: <span class="icon icon-bed"></span>
 
 saving:
   name: Saving
   path: /make-money-online/by-saving/
-  icon: <i class="fas fa-piggy-bank"></i>
+  icon: <span class="icon icon-bank1"></span>
 
 consuming:
   name: Consuming Content
   path: /make-money-online/consuming-content/
-  icon: <i class="fas fa-tv"></i>
+  icon: <span class="icon icon-television1"></span>
 
 creating:
   name: Creating Content
   path: /make-money-online/creating-content/
-  icon: <i class="fas fa-pen"></i>
+  icon: <span class="icon icon-pencil2"></span>
 
 crypto:
   name: Mining Cryptocurrency

@@ -7,10 +7,10 @@ tags: main
 hero: /images/large/cyberpunk_at_desk.jpg
 method:
 - fast
-- saving
+- creating
 - medium
 speed: fast
-way: saving
+way: creating
 earning: medium
 author: Carl Poppa
 authorTwitter: https://twitter.com/poppacalypse
