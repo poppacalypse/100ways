@@ -3,5 +3,5 @@ layout: method
 short_name: making-investments
 label: investing
 name: Investing
-icon: <i class="fas fa-chart-line"></i>
+icon: <span class="icon icon-stats-dots"></span>
 ---

@@ -25,3 +25,5 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
+
+include: [_site/_redirects]
