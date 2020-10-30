@@ -76,6 +76,8 @@ nav {
 }
 .header-form {
   margin: 0 2em -2.5vh 0;
+}
+.header-form p {
   color: #0f0 !important;
 }
 .header-social-links > ul > li {
@@ -707,7 +709,7 @@ nav {
     color: #00ff00;
     background: rgba(0, 255, 0, 0.5);
   }
-  .sidebar-form {
+  .sidebar-form p {
     color: #0f0 !important;
   }
 }
