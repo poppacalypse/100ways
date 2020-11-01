@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dropshipping
-permalink: /make-money-online/dropshipping/
+permalink: /make-money-online/by-dropshipping/
 canonical_url: 'https://100ways.to/insert-canonical-url-here'
 tags: main
 hero: /images/posts/dropshipping.jpg
@@ -38,7 +38,7 @@ Third paragraph. **Q: What do double asterisks do** A: strong
 
 <img src="https://placekitten.com/g/500/200" alt="kitten">
 
-Do `backticks` word for code? Yes.
+Do `backticks` work for code? Yes.
 
 Here's a horizontal rule:
 
