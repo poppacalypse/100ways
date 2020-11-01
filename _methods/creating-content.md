@@ -2,6 +2,6 @@
 layout: method
 short_name: creating-content
 label: creating
-name: Creating Content
-icon: <span class="icon icon-pencil4"></span>
+name: Creating
+icon: <span class="icon icon-ruler"></span>
 ---

@@ -1,7 +1,7 @@
 ---
 layout: method
-short_name: consuming-content
+short_name: consuming
 label: consuming
-name: Consuming Content
+name: Consuming
 icon: <span class="icon icon-display"></span>
 ---

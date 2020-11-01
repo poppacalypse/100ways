@@ -15,20 +15,20 @@ idling:
   path: /make-money-online/while-idling/
   icon: <span class="icon icon-bed"></span>
 
-saving:
-  name: Saving
-  path: /make-money-online/by-saving/
-  icon: <span class="icon icon-coin-dollar"></span>
+doing:
+  name: Doing
+  path: /make-money-online/by-doing/
+  icon: <span class="icon icon-check-square-o"></span>
 
 consuming:
-  name: Consuming Content
+  name: Consuming
   path: /make-money-online/consuming-content/
   icon: <span class="icon icon-display"></span>
 
 creating:
-  name: Creating Content
+  name: Creating
   path: /make-money-online/creating-content/
-  icon: <span class="icon icon-pencil4"></span>
+  icon: <span class="icon icon-ruler"></span>
 
 crypto:
   name: Mining Cryptocurrency
