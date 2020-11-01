@@ -1,19 +1,16 @@
 ---
 layout: post
-title: Doing something else
-permalink: /doing-something-not-money-related/
-hero: /images/shark.jpg
+title: Seeing advertisements
+permalink: /make-money-online/seeing-advertisements/
+hero: /images/posts/watching-youtube.jpg
+
 method:
-- slow
-- idling
+- fast
+- consuming
 - small
-speed: slow
-way: idling
+speed: fast
+way: consuming
 earning: small
-author: Carl Poppa
-authorTwitter: https://twitter.com/poppacalypse
-authorPic: /images/poppacalypse.jpg
-postFooter: Additional information, and maybe a <a href="#">link or two</a>. Lorem ipsum dolor sit amet
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
