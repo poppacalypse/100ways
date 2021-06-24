@@ -99,9 +99,6 @@ nav {
 
 
 /* STICKY BANNER */
-.banner {
-  z-index: 18;
-}
 .banner a {
   background: linear-gradient(45deg, #347b98,  #20b261);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
@@ -113,6 +110,7 @@ nav {
   text-decoration: none;
   top: 0;
   width: 100vw;
+  z-index: 18;
 }
 .banner a:hover {
   background: linear-gradient(45deg, #228b22, #0f0);

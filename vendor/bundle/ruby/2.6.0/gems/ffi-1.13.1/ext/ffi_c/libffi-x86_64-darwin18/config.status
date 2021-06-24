@@ -439,8 +439,8 @@ gives unlimited permission to copy, distribute and modify it."
 
 ac_pwd='/Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi-x86_64-darwin18'
 srcdir='/Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi'
-INSTALL='/usr/local/bin/ginstall -c'
-MKDIR_P='/usr/local/bin/gmkdir -p'
+INSTALL='/usr/bin/install -c'
+MKDIR_P='/Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/install-sh -c -d'
 AWK='awk'
 test -n "$AWK" || AWK=awk
 # The default lists apply if the user does not specify any file.
@@ -683,7 +683,7 @@ postuninstall_cmds=''
 finish_cmds=''
 finish_eval=''
 hardcode_into_libs='no'
-sys_lib_search_path_spec='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1  /usr/local/lib'
+sys_lib_search_path_spec='/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1  /usr/local/lib'
 configure_time_dlsearch_path='/usr/local/lib /lib /usr/lib'
 configure_time_lt_sys_library_path=''
 hardcode_action='immediate'
@@ -985,7 +985,7 @@ S["am__leading_dot"]="."
 S["SET_MAKE"]=""
 S["AWK"]="awk"
 S["mkdir_p"]="$(MKDIR_P)"
-S["MKDIR_P"]="/usr/local/bin/gmkdir -p"
+S["MKDIR_P"]="/Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/install-sh -c -d"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
 S["install_sh"]="${SHELL} /Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/install-sh"

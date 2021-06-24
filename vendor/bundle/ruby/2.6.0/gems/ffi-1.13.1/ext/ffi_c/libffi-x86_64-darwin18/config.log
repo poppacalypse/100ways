@@ -14,7 +14,7 @@ hostname = Aarons-MacBook-Air.local
 uname -m = x86_64
 uname -r = 18.7.0
 uname -s = Darwin
-uname -v = Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+uname -v = Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64
 
 /usr/bin/uname -p = i386
 /bin/uname -X     = unknown
@@ -23,31 +23,29 @@ uname -v = Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-
 /usr/bin/arch -k       = unknown
 /usr/convex/getsysinfo = unknown
 /usr/bin/hostinfo      = Mach kernel version:
-	 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+	 Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64
 Kernel configured for up to 4 processors.
 2 processors are physically available.
 4 processors are logically available.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 300 tasks, 1176 threads, 4 processors
-Load average: 5.11, Mach factor: 0.92
+Default processor set: 342 tasks, 1588 threads, 4 processors
+Load average: 4.43, Mach factor: 0.82
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
 PATH: /Users/adc/.rbenv/versions/2.6.3/bin
 PATH: /usr/local/Cellar/rbenv/1.1.2/libexec
-PATH: /Users/adc/.nvm/versions/node/v14.10.0/bin
+PATH: /Users/adc/.rbenv/plugins/ruby-build/bin
+PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin
 PATH: /Users/adc/.rbenv/shims
-PATH: /Users/adc/.rbenv/shims
-PATH: ~/bin
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
 PATH: /usr/sbin
 PATH: /sbin
-PATH: /opt/yarn-1.22.5/bin
 
 
 ## ----------- ##
@@ -63,11 +61,11 @@ configure:2784: result: x86_64-apple-darwin18.7.0
 configure:2881: checking for gsed
 configure:2912: result: sed
 configure:2940: checking for a BSD-compatible install
-configure:3008: result: /usr/local/bin/ginstall -c
+configure:3008: result: /usr/bin/install -c
 configure:3019: checking whether build environment is sane
 configure:3074: result: yes
 configure:3222: checking for a thread-safe mkdir -p
-configure:3261: result: /usr/local/bin/gmkdir -p
+configure:3261: result: /Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/install-sh -c -d
 configure:3268: checking for gawk
 configure:3298: result: no
 configure:3268: checking for mawk
@@ -88,13 +86,13 @@ configure:3824: clang --version >&5
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
 Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 configure:3835: $? = 0
 configure:3824: clang -v >&5
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
 Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 configure:3835: $? = 0
 configure:3824: clang -V >&5
 clang: error: unsupported option '-V -Wno-atomic-implicit-seq-cst'
@@ -154,15 +152,15 @@ configure:4671: g++ --version >&5
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
 Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
 configure:4682: $? = 0
 configure:4671: g++ -v >&5
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
 Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 configure:4682: $? = 0
 configure:4671: g++ -V >&5
 clang: error: unsupported option '-V -Wno-atomic-implicit-seq-cst'
@@ -1130,9 +1128,8 @@ ac_cv_path_FGREP='/usr/bin/grep -F'
 ac_cv_path_GREP=/usr/bin/grep
 ac_cv_path_SED=/usr/bin/sed
 ac_cv_path_ax_enable_builddir_sed=sed
-ac_cv_path_install='/usr/local/bin/ginstall -c'
+ac_cv_path_install='/usr/bin/install -c'
 ac_cv_path_lt_DD=/bin/dd
-ac_cv_path_mkdir=/usr/local/bin/gmkdir
 ac_cv_prog_AWK=awk
 ac_cv_prog_CPP='clang -E'
 ac_cv_prog_CXXCPP='g++ -E'
@@ -1284,7 +1281,7 @@ MAINTAINER_MODE_FALSE=''
 MAINTAINER_MODE_TRUE='#'
 MAKEINFO='${SHELL} /Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/missing makeinfo'
 MANIFEST_TOOL=':'
-MKDIR_P='/usr/local/bin/gmkdir -p'
+MKDIR_P='/Users/adc/repos/100ways.to/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/install-sh -c -d'
 NM='/usr/bin/nm -B'
 NMEDIT='nmedit'
 OBJDUMP='objdump'

@@ -2,6 +2,7 @@
 layout: post
 title: Seeing advertisements
 permalink: /make-money-online/seeing-advertisements/
+tags: main
 hero: /images/posts/watching-youtube.jpg
 
 method:
