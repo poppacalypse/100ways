@@ -46,6 +46,9 @@ nav {
   align-items: center;
   width: 20%;
 }
+.about-header .header-logo {
+  width: 30%;
+}
 .header-logo-img img {
   height: 9vh;
   width: auto;
@@ -76,6 +79,9 @@ nav {
   margin-right: 5.5vh;
   margin-top: 2vh;
   width: 80%;
+}
+.about-header .header-nav {
+  width: 70%;
 }
 .header-form {
   margin: 0 2em -2.5vh 0;
@@ -129,7 +135,7 @@ nav {
   height: 89vh;
 }
 .hero-home {
-  background-image: url(https://source.unsplash.com/featured/?space,stars);
+  background-image: url(https://source.unsplash.com/featured/?space);
   background-position: center top;
 }
 .hero-content {
@@ -155,12 +161,14 @@ nav {
   text-shadow: 0 0 50px #ff00ff;
 }
 .hero-content a {
-  color: #00ffff;
+  color: #00ff00;
+
   text-decoration: none;
 }
 .hero-content a:hover,
 .hero-content a:active {
-  color: #00ff00;
+  color: #00ffff;
+
 }
 .full-hero:after {
   border: 10px solid;
